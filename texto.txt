@@ -1,0 +1,4 @@
+
+Gerar executavel:
+    pip install pyinstaller
+    pyinstaller --onefile "voz_python.py"

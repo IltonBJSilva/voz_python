@@ -5,9 +5,9 @@ from playsound import playsound
 
 while True:
 	frase = input('Digite uma frase: ')
-	nome_arq = input('Digite o nome do arquivo + .mp3: ')
 	if frase == 'desligar':
 		break
+	nome_arq = input('Digite o nome do arquivo + .mp3: ')
 	tts = gTTS(frase, lang='pt-br', slow=False)
 	tts.save(nome_arq)
 	sleep(2)
